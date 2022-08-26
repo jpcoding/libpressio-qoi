@@ -1,0 +1,129 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "zfp_demo"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/pjiao/git/libpressio_opt/install/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/pjiao/.local/include/libpressio"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/libstdcompat-0.0.15-jy7h6njv7f36whpzgg42hkske4x4ehqh/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "zfp_demo::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/pjiao/.local/lib64:/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/zfp-0.5.5-6f6ee4eu74qolwxa2xjjwird66tlboh2/lib64:/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/libdistributed-0.4.0-adwrb5d7vc6ilkuxedc76tzsc52n7b3j/lib64:/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/libstdcompat-0.0.15-jy7h6njv7f36whpzgg42hkske4x4ehqh/lib64:/usr/lib64/mpich/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/pjiao/.local/lib64/liblibpressio.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/libstdcompat-0.0.15-jy7h6njv7f36whpzgg42hkske4x4ehqh/lib64/libstd_compat.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/zfp-0.5.5-6f6ee4eu74qolwxa2xjjwird66tlboh2/lib64:/home/pjiao/git/spack/opt/spack/linux-fedora36-skylake/gcc-12.1.1/libdistributed-0.4.0-adwrb5d7vc6ilkuxedc76tzsc52n7b3j/lib64:/usr/lib64/mpich/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "zfp_demo",
+	"nameOnDisk" : "zfp_demo",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "zfp_demo.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

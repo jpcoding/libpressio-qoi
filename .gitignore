@@ -1,0 +1,5 @@
+./build
+*.dat
+*.out
+*.f32
+./.vscode
