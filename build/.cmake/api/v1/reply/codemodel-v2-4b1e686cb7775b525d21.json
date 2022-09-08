@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "iterate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fraz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fraz-Debug-d86f20803a8fde5ee4e9.json",
+					"name" : "fraz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iterate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iterate-Debug-e60272f8984779edf616.json",
+					"name" : "iterate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opt_binary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opt_binary-Debug-795b068cd3fdc1a8a449.json",
+					"name" : "opt_binary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opt_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opt_demo-Debug-a2c926a5c532881372c8.json",
+					"name" : "opt_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opt_zfp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opt_zfp-Debug-8f35b6c14ee99b09ba40.json",
+					"name" : "opt_zfp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sz3_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sz3_demo-Debug-33f0a81ea5543ff67c6a.json",
+					"name" : "sz3_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zfp_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zfp_demo-Debug-bd9fb5c404d97f55b95d.json",
+					"name" : "zfp_demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pjyh8/git/libpressio-qoi/build",
+		"source" : "/home/pjyh8/git/libpressio-qoi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

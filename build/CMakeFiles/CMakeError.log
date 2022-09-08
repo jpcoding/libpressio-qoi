@@ -1,0 +1,65 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_94ea3/fast && /usr/bin/make  -f CMakeFiles/cmTC_94ea3.dir/build.make CMakeFiles/cmTC_94ea3.dir/build
+make[1]: Entering directory '/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94ea3.dir/src.c.o
+/share/apps/common/gcc/9.2.0/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_94ea3.dir/src.c.o -c /home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_94ea3
+/home/pjyh8/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94ea3.dir/link.txt --verbose=1
+/share/apps/common/gcc/9.2.0/bin/gcc -pg  CMakeFiles/cmTC_94ea3.dir/src.c.o -o cmTC_94ea3 
+/share/apps/common/gcc/9.2.0/binutils/bin/ld: CMakeFiles/cmTC_94ea3.dir/src.c.o: in function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+/share/apps/common/gcc/9.2.0/binutils/bin/ld: src.c:(.text+0x39): undefined reference to `pthread_detach'
+/share/apps/common/gcc/9.2.0/binutils/bin/ld: src.c:(.text+0x45): undefined reference to `pthread_cancel'
+/share/apps/common/gcc/9.2.0/binutils/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_join'
+/share/apps/common/gcc/9.2.0/binutils/bin/ld: src.c:(.text+0x6a): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_94ea3.dir/build.make:98: recipe for target 'cmTC_94ea3' failed
+make[1]: *** [cmTC_94ea3] Error 1
+make[1]: Leaving directory '/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_94ea3/fast' failed
+make: *** [cmTC_94ea3/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cdf84/fast && /usr/bin/make  -f CMakeFiles/cmTC_cdf84.dir/build.make CMakeFiles/cmTC_cdf84.dir/build
+make[1]: Entering directory '/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdf84.dir/CheckFunctionExists.c.o
+/share/apps/common/gcc/9.2.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_cdf84.dir/CheckFunctionExists.c.o -c /home/pjyh8/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cdf84
+/home/pjyh8/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf84.dir/link.txt --verbose=1
+/share/apps/common/gcc/9.2.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create -pg  CMakeFiles/cmTC_cdf84.dir/CheckFunctionExists.c.o -o cmTC_cdf84  -lpthreads 
+/share/apps/common/gcc/9.2.0/binutils/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cdf84.dir/build.make:98: recipe for target 'cmTC_cdf84' failed
+make[1]: *** [cmTC_cdf84] Error 1
+make[1]: Leaving directory '/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_cdf84/fast' failed
+make: *** [cmTC_cdf84/fast] Error 2
+
+
+

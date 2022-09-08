@@ -1,0 +1,647 @@
+szie = 1
+rank={0,1,} iter={0} input={46.2904,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={1} input={21.5966,} output={59.4556,0.0818832,59.4556,} objective={59.4556}
+rank={0,1,} iter={2} input={70.6067,} output={-inf,0.257347,96.3607,} objective={-inf}
+final_iter={3} inputs={21.5966,} output={59.4556,0.0818832,59.4556,}
+time:compress = 2258
+time:decompress = 277
+zfp:accuracy = 1.5482e-314
+size:compression ratio = 59.4556
+error_stat:max_x_sq_diff_rel = 0.0818832
+szie = 1
+rank={0,1,} iter={0} input={46.2904,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={1} input={21.5966,} output={59.4556,0.0818832,59.4556,} objective={59.4556}
+rank={0,1,} iter={2} input={70.6067,} output={-inf,0.257347,96.3607,} objective={-inf}
+final_iter={3} inputs={21.5966,} output={59.4556,0.0818832,59.4556,}
+time:compress = 2254
+time:decompress = 277
+zfp:accuracy = 3.2732e-315
+size:compression ratio = 59.4556
+error_stat:max_x_sq_diff_rel = 0.0818832
+szie = 1
+rank={0,1,} iter={0} input={46.2904,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={1} input={21.5966,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={2} input={70.6067,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={3} input={13.5532,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={4} input={37.3598,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={5} input={48.2234,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={6} input={80.0635,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={7} input={49.0952,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={8} input={17.945,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={9} input={6.2636,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={10} input={81.8769,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={11} input={4.89423,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={12} input={60.6124,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={13} input={72.5825,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={14} input={43.6241,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={15} input={43.1909,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={16} input={30.5729,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={17} input={32.0592,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={18} input={2.45877,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={19} input={68.3764,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={20} input={83.2277,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={21} input={7.83393,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={22} input={90.7664,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={23} input={26.7327,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={24} input={14.6729,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={25} input={67.0168,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={26} input={6.87195,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={27} input={19.0775,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={28} input={7.59198,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={29} input={89.3071,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={30} input={85.4536,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={31} input={57.4033,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={32} input={28.0428,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={33} input={2.91053,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={34} input={24.4821,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={35} input={83.5928,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={36} input={56.5902,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={37} input={27.4893,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={38} input={17.763,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={39} input={34.5345,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={40} input={65.6859,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={41} input={21.1709,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={42} input={43.3968,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={43} input={77.8239,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={44} input={88.071,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={45} input={71.5284,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={46} input={78.7892,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={47} input={56.132,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={48} input={76.948,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={49} input={91.6249,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={50} input={8.69878,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={51} input={77.2306,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={52} input={0.863236,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={53} input={26.4147,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={54} input={5.55251,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={55} input={19.7871,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={56} input={34.9953,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={57} input={53.6059,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={58} input={75.374,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={59} input={10.5204,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={60} input={74.8638,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={61} input={2.74013,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={62} input={61.6795,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={63} input={76.8927,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={64} input={24.2626,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={65} input={21.7382,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={66} input={84.1179,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={67} input={86.2565,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={68} input={56.961,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={69} input={64.4021,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={70} input={70.5235,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={71} input={14.2946,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={72} input={12.4741,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={73} input={36.7877,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={74} input={82.8715,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={75} input={21.5647,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={76} input={70.637,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={77} input={25.8828,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={78} input={45.9203,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={79} input={25.5026,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={80} input={87.0045,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={81} input={57.1016,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={82} input={83.0056,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={83} input={51.0715,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={84} input={9.44941,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={85} input={19.6337,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={86} input={41.4431,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={87} input={27.294,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={88} input={43.4932,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={89} input={52.0645,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={90} input={75.475,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={91} input={62.4826,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={92} input={46.5744,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={93} input={90.5916,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={94} input={41.6276,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={95} input={40.9877,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={96} input={17.8381,} output={-inf,0.0818832,59.4556,} objective={-inf}
+rank={0,1,} iter={97} input={88.9452,} output={-inf,0.257347,96.3607,} objective={-inf}
+rank={0,1,} iter={98} input={58.6942,} output={-inf,0.160949,77.1457,} objective={-inf}
+rank={0,1,} iter={99} input={23.1825,} output={-inf,0.0818832,59.4556,} objective={-inf}
+final_iter={100} inputs={46.2904,} output={-inf,0.160949,77.1457,}
+time:compress = 56828
+time:decompress = 260
+zfp:accuracy = 1.53367e-314
+size:compression ratio = 77.1457
+error_stat:max_x_sq_diff_rel = 0.160949
+szie = 1
+rank={0,1,} iter={0} input={4.62904,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={1} input={2.15966,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={2} input={7.06067,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={3} input={1.35532,} output={16.5561,0.00701973,16.5561,} objective={16.5561}
+rank={0,1,} iter={4} input={3.73598,} output={-inf,0.0106477,22.5443,} objective={-inf}
+final_iter={5} inputs={1.35532,} output={16.5561,0.00701973,16.5561,}
+time:compress = 4312
+time:decompress = 336
+zfp:accuracy = 5.92211e-315
+size:compression ratio = 16.5561
+error_stat:max_x_sq_diff_rel = 0.00701973
+szie = 1
+rank={0,1,} iter={0} input={4.62904,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={1} input={2.15966,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={2} input={7.06067,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={3} input={1.35532,} output={16.5561,0.00701973,16.5561,} objective={16.5561}
+rank={0,1,} iter={4} input={3.73598,} output={-inf,0.0106477,22.5443,} objective={-inf}
+final_iter={5} inputs={1.35532,} output={16.5561,0.00701973,16.5561,}
+time:compress = 4308
+time:decompress = 337
+zfp:accuracy = 1.98312e-314
+size:compression ratio = 16.5561
+error_stat:max_x_sq_diff_rel = 0.00701973
+szie = 1
+rank={0,1,} iter={0} input={4.62904,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={1} input={2.15966,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={2} input={7.06067,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={3} input={1.35532,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={4} input={3.73598,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={5} input={4.82234,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={6} input={8.00635,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={7} input={4.90952,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={8} input={1.7945,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={9} input={0.62636,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={10} input={8.18769,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={11} input={0.489423,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={12} input={6.06124,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={13} input={7.25825,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={14} input={4.36241,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={15} input={4.31909,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={16} input={3.05729,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={17} input={3.20592,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={18} input={0.245877,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={19} input={6.83764,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={20} input={8.32277,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={21} input={0.783393,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={22} input={9.07664,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={23} input={2.67327,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={24} input={1.46729,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={25} input={6.70168,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={26} input={0.687195,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={27} input={1.90775,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={28} input={0.759198,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={29} input={8.93071,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={30} input={8.54536,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={31} input={5.74033,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={32} input={2.80428,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={33} input={0.291053,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={34} input={2.44821,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={35} input={8.35928,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={36} input={5.65902,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={37} input={2.74893,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={38} input={1.7763,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={39} input={3.45345,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={40} input={6.56859,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={41} input={2.11709,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={42} input={4.33968,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={43} input={7.78239,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={44} input={8.8071,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={45} input={7.15284,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={46} input={7.87892,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={47} input={5.6132,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={48} input={7.6948,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={49} input={9.16249,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={50} input={0.869878,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={51} input={7.72306,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={52} input={0.0863236,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={53} input={2.64147,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={54} input={0.555251,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={55} input={1.97871,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={56} input={3.49953,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={57} input={5.36059,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={58} input={7.5374,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={59} input={1.05204,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={60} input={7.48638,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={61} input={0.274013,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={62} input={6.16795,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={63} input={7.68927,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={64} input={2.42626,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={65} input={2.17382,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={66} input={8.41179,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={67} input={8.62565,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={68} input={5.6961,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={69} input={6.44021,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={70} input={7.05235,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={71} input={1.42946,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={72} input={1.24741,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={73} input={3.67877,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={74} input={8.28715,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={75} input={2.15647,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={76} input={7.0637,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={77} input={2.58828,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={78} input={4.59203,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={79} input={2.55026,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={80} input={8.70045,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={81} input={5.71016,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={82} input={8.30056,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={83} input={5.10715,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={84} input={0.944941,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={85} input={1.96337,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={86} input={4.14431,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={87} input={2.7294,} output={-inf,0.0106477,22.5443,} objective={-inf}
+rank={0,1,} iter={88} input={4.34932,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={89} input={5.20645,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={90} input={7.5475,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={91} input={6.24826,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={92} input={4.65744,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={93} input={9.05916,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={94} input={4.16276,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={95} input={4.09877,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={96} input={1.78381,} output={-inf,0.00701973,16.5561,} objective={-inf}
+rank={0,1,} iter={97} input={8.89452,} output={-inf,0.0373266,43.8235,} objective={-inf}
+rank={0,1,} iter={98} input={5.86942,} output={-inf,0.0191424,31.3655,} objective={-inf}
+rank={0,1,} iter={99} input={2.31825,} output={-inf,0.0106477,22.5443,} objective={-inf}
+final_iter={100} inputs={4.62904,} output={-inf,0.0191424,31.3655,}
+time:compress = 70607
+time:decompress = 296
+zfp:accuracy = 1.71406e-314
+size:compression ratio = 31.3655
+error_stat:max_x_sq_diff_rel = 0.0191424
+szie = 1
+rank={0,1,} iter={0} input={0.462904,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={1} input={0.215966,} output={7.77908,0.00087693,7.77908,} objective={7.77908}
+rank={0,1,} iter={2} input={0.706067,} output={-inf,0.00346713,12.4853,} objective={-inf}
+final_iter={3} inputs={0.215966,} output={7.77908,0.00087693,7.77908,}
+time:compress = 3595
+time:decompress = 410
+zfp:accuracy = 1.00498e-314
+size:compression ratio = 7.77908
+error_stat:max_x_sq_diff_rel = 0.00087693
+szie = 1
+rank={0,1,} iter={0} input={0.462904,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={1} input={0.215966,} output={7.77908,0.00087693,7.77908,} objective={7.77908}
+rank={0,1,} iter={2} input={0.706067,} output={-inf,0.00346713,12.4853,} objective={-inf}
+final_iter={3} inputs={0.215966,} output={7.77908,0.00087693,7.77908,}
+time:compress = 3586
+time:decompress = 408
+zfp:accuracy = 1.45344e-314
+size:compression ratio = 7.77908
+error_stat:max_x_sq_diff_rel = 0.00087693
+szie = 1
+rank={0,1,} iter={0} input={0.462904,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={1} input={0.215966,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={2} input={0.706067,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={3} input={0.135532,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={4} input={0.373598,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={5} input={0.482234,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={6} input={0.800635,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={7} input={0.490952,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={8} input={0.17945,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={9} input={0.062636,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={10} input={0.818769,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={11} input={0.0489423,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={12} input={0.606124,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={13} input={0.725825,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={14} input={0.436241,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={15} input={0.431909,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={16} input={0.305729,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={17} input={0.320592,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={18} input={0.0245877,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={19} input={0.683764,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={20} input={0.832277,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={21} input={0.0783393,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={22} input={0.907664,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={23} input={0.267327,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={24} input={0.146729,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={25} input={0.670168,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={26} input={0.0687195,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={27} input={0.190775,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={28} input={0.0759198,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={29} input={0.893071,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={30} input={0.854536,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={31} input={0.574033,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={32} input={0.280428,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={33} input={0.0291053,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={34} input={0.244821,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={35} input={0.835928,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={36} input={0.565902,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={37} input={0.274893,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={38} input={0.17763,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={39} input={0.345345,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={40} input={0.656859,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={41} input={0.211709,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={42} input={0.433968,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={43} input={0.778239,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={44} input={0.88071,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={45} input={0.715284,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={46} input={0.787892,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={47} input={0.56132,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={48} input={0.76948,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={49} input={0.916249,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={50} input={0.0869878,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={51} input={0.772306,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={52} input={0.00863236,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={53} input={0.264147,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={54} input={0.0555251,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={55} input={0.197871,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={56} input={0.349953,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={57} input={0.536059,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={58} input={0.75374,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={59} input={0.105204,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={60} input={0.748638,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={61} input={0.0274013,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={62} input={0.616795,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={63} input={0.768927,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={64} input={0.242626,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={65} input={0.217382,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={66} input={0.841179,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={67} input={0.862565,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={68} input={0.56961,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={69} input={0.644021,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={70} input={0.705235,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={71} input={0.142946,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={72} input={0.124741,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={73} input={0.367877,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={74} input={0.828715,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={75} input={0.215647,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={76} input={0.70637,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={77} input={0.258828,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={78} input={0.459203,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={79} input={0.255026,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={80} input={0.870045,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={81} input={0.571016,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={82} input={0.830056,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={83} input={0.510715,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={84} input={0.0944941,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={85} input={0.196337,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={86} input={0.414431,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={87} input={0.27294,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={88} input={0.434932,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={89} input={0.520645,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={90} input={0.75475,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={91} input={0.624826,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={92} input={0.465744,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={93} input={0.905916,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={94} input={0.416276,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={95} input={0.409877,} output={-inf,0.00184801,9.70741,} objective={-inf}
+rank={0,1,} iter={96} input={0.178381,} output={-inf,0.00087693,7.77908,} objective={-inf}
+rank={0,1,} iter={97} input={0.889452,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={98} input={0.586942,} output={-inf,0.00346713,12.4853,} objective={-inf}
+rank={0,1,} iter={99} input={0.231825,} output={-inf,0.00087693,7.77908,} objective={-inf}
+final_iter={100} inputs={0.462904,} output={-inf,0.00184801,9.70741,}
+time:compress = 88936
+time:decompress = 385
+zfp:accuracy = 1.88404e-314
+size:compression ratio = 9.70741
+error_stat:max_x_sq_diff_rel = 0.00184801
+szie = 1
+rank={0,1,} iter={0} input={0.0462904,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={1} input={0.0215966,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={2} input={0.0706067,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={3} input={0.0135532,} output={4.07664,6.44384e-05,4.07664,} objective={4.07664}
+rank={0,1,} iter={4} input={0.0373598,} output={-inf,0.000246255,5.40617,} objective={-inf}
+final_iter={5} inputs={0.0135532,} output={4.07664,6.44384e-05,4.07664,}
+time:compress = 6457
+time:decompress = 502
+zfp:accuracy = 1.91958e-314
+size:compression ratio = 4.07664
+error_stat:max_x_sq_diff_rel = 6.44384e-05
+szie = 1
+rank={0,1,} iter={0} input={0.0462904,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={1} input={0.0215966,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={2} input={0.0706067,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={3} input={0.0135532,} output={4.07664,6.44384e-05,4.07664,} objective={4.07664}
+rank={0,1,} iter={4} input={0.0373598,} output={-inf,0.000246255,5.40617,} objective={-inf}
+final_iter={5} inputs={0.0135532,} output={4.07664,6.44384e-05,4.07664,}
+time:compress = 6466
+time:decompress = 503
+zfp:accuracy = 3.40575e-315
+size:compression ratio = 4.07664
+error_stat:max_x_sq_diff_rel = 6.44384e-05
+szie = 1
+rank={0,1,} iter={0} input={0.0462904,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={1} input={0.0215966,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={2} input={0.0706067,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={3} input={0.0135532,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={4} input={0.0373598,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={5} input={0.0482234,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={6} input={0.0800635,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={7} input={0.0490952,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={8} input={0.017945,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={9} input={0.0062636,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={10} input={0.0818769,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={11} input={0.00489423,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={12} input={0.0606124,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={13} input={0.0725825,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={14} input={0.0436241,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={15} input={0.0431909,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={16} input={0.0305729,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={17} input={0.0320592,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={18} input={0.00245877,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={19} input={0.0683764,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={20} input={0.0832277,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={21} input={0.00783393,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={22} input={0.0907664,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={23} input={0.0267327,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={24} input={0.0146729,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={25} input={0.0670168,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={26} input={0.00687195,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={27} input={0.0190775,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={28} input={0.00759198,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={29} input={0.0893071,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={30} input={0.0854536,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={31} input={0.0574033,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={32} input={0.0280428,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={33} input={0.00291053,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={34} input={0.0244821,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={35} input={0.0835928,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={36} input={0.0565902,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={37} input={0.0274893,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={38} input={0.017763,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={39} input={0.0345345,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={40} input={0.0656859,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={41} input={0.0211709,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={42} input={0.0433968,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={43} input={0.0778239,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={44} input={0.088071,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={45} input={0.0715284,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={46} input={0.0787892,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={47} input={0.056132,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={48} input={0.076948,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={49} input={0.0916249,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={50} input={0.00869878,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={51} input={0.0772306,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={52} input={0.000863236,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={53} input={0.0264147,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={54} input={0.00555251,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={55} input={0.0197871,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={56} input={0.0349953,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={57} input={0.0536059,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={58} input={0.075374,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={59} input={0.0105204,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={60} input={0.0748638,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={61} input={0.00274013,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={62} input={0.0616795,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={63} input={0.0768927,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={64} input={0.0242626,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={65} input={0.0217382,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={66} input={0.0841179,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={67} input={0.0862565,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={68} input={0.056961,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={69} input={0.0644021,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={70} input={0.0705235,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={71} input={0.0142946,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={72} input={0.0124741,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={73} input={0.0367877,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={74} input={0.0828715,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={75} input={0.0215647,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={76} input={0.070637,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={77} input={0.0258828,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={78} input={0.0459203,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={79} input={0.0255026,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={80} input={0.0870045,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={81} input={0.0571016,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={82} input={0.0830056,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={83} input={0.0510715,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={84} input={0.00944941,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={85} input={0.0196337,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={86} input={0.0414431,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={87} input={0.027294,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={88} input={0.0434932,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={89} input={0.0520645,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={90} input={0.075475,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={91} input={0.0624826,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={92} input={0.0465744,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={93} input={0.0905916,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={94} input={0.0416276,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={95} input={0.0409877,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={96} input={0.0178381,} output={-inf,0.000118438,4.65452,} objective={-inf}
+rank={0,1,} iter={97} input={0.0889452,} output={-inf,0.000469386,6.40814,} objective={-inf}
+rank={0,1,} iter={98} input={0.0586942,} output={-inf,0.000246255,5.40617,} objective={-inf}
+rank={0,1,} iter={99} input={0.0231825,} output={-inf,0.000118438,4.65452,} objective={-inf}
+final_iter={100} inputs={0.0462904,} output={-inf,0.000246255,5.40617,}
+time:compress = 106742
+time:decompress = 460
+zfp:accuracy = 1.35729e-314
+size:compression ratio = 5.40617
+error_stat:max_x_sq_diff_rel = 0.000246255
+szie = 1
+rank={0,1,} iter={0} input={0.00462904,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={1} input={0.00215966,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={2} input={0.00706067,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={3} input={0.00135532,} output={2.95782,7.65451e-06,2.95782,} objective={2.95782}
+rank={0,1,} iter={4} input={0.00373598,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+final_iter={5} inputs={0.00135532,} output={2.95782,7.65451e-06,2.95782,}
+time:compress = 7361
+time:decompress = 567
+zfp:accuracy = 4.3915e-315
+size:compression ratio = 2.95782
+error_stat:max_x_sq_diff_rel = 7.65451e-06
+szie = 1
+rank={0,1,} iter={0} input={0.00462904,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={1} input={0.00215966,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={2} input={0.00706067,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={3} input={0.00135532,} output={2.95782,7.65451e-06,2.95782,} objective={2.95782}
+rank={0,1,} iter={4} input={0.00373598,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+final_iter={5} inputs={0.00135532,} output={2.95782,7.65451e-06,2.95782,}
+time:compress = 7380
+time:decompress = 571
+zfp:accuracy = 1.83494e-314
+size:compression ratio = 2.95782
+error_stat:max_x_sq_diff_rel = 7.65451e-06
+szie = 1
+rank={0,1,} iter={0} input={0.00462904,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={1} input={0.00215966,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={2} input={0.00706067,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={3} input={0.00135532,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={4} input={0.00373598,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={5} input={0.00482234,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={6} input={0.00800635,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={7} input={0.00490952,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={8} input={0.0017945,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={9} input={0.00062636,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={10} input={0.00818769,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={11} input={0.000489423,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={12} input={0.00606124,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={13} input={0.00725825,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={14} input={0.00436241,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={15} input={0.00431909,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={16} input={0.00305729,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={17} input={0.00320592,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={18} input={0.000245877,} output={-inf,2.1625e-06,2.49854,} objective={-inf}
+rank={0,1,} iter={19} input={0.00683764,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={20} input={0.00832277,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={21} input={0.000783393,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={22} input={0.00907664,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={23} input={0.00267327,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={24} input={0.00146729,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={25} input={0.00670168,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={26} input={0.000687195,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={27} input={0.00190775,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={28} input={0.000759198,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={29} input={0.00893071,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={30} input={0.00854536,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={31} input={0.00574033,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={32} input={0.00280428,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={33} input={0.000291053,} output={-inf,2.1625e-06,2.49854,} objective={-inf}
+rank={0,1,} iter={34} input={0.00244821,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={35} input={0.00835928,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={36} input={0.00565902,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={37} input={0.00274893,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={38} input={0.0017763,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={39} input={0.00345345,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={40} input={0.00656859,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={41} input={0.00211709,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={42} input={0.00433968,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={43} input={0.00778239,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={44} input={0.0088071,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={45} input={0.00715284,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={46} input={0.00787892,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={47} input={0.0056132,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={48} input={0.0076948,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={49} input={0.00916249,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={50} input={0.000869878,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={51} input={0.00772306,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={52} input={8.63236e-05,} output={-inf,5.25664e-07,2.16264,} objective={-inf}
+rank={0,1,} iter={53} input={0.00264147,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={54} input={0.000555251,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={55} input={0.00197871,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={56} input={0.00349953,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={57} input={0.00536059,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={58} input={0.0075374,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={59} input={0.00105204,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={60} input={0.00748638,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={61} input={0.000274013,} output={-inf,2.1625e-06,2.49854,} objective={-inf}
+rank={0,1,} iter={62} input={0.00616795,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={63} input={0.00768927,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={64} input={0.00242626,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={65} input={0.00217382,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={66} input={0.00841179,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={67} input={0.00862565,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={68} input={0.0056961,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={69} input={0.00644021,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={70} input={0.00705235,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={71} input={0.00142946,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={72} input={0.00124741,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={73} input={0.00367877,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={74} input={0.00828715,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={75} input={0.00215647,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={76} input={0.0070637,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={77} input={0.00258828,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={78} input={0.00459203,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={79} input={0.00255026,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={80} input={0.00870045,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={81} input={0.00571016,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={82} input={0.00830056,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={83} input={0.00510715,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={84} input={0.000944941,} output={-inf,3.79761e-06,2.70889,} objective={-inf}
+rank={0,1,} iter={85} input={0.00196337,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={86} input={0.00414431,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={87} input={0.0027294,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+rank={0,1,} iter={88} input={0.00434932,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={89} input={0.00520645,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={90} input={0.0075475,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={91} input={0.00624826,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={92} input={0.00465744,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={93} input={0.00905916,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={94} input={0.00416276,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={95} input={0.00409877,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={96} input={0.00178381,} output={-inf,7.65451e-06,2.95782,} objective={-inf}
+rank={0,1,} iter={97} input={0.00889452,} output={-inf,6.44384e-05,4.07664,} objective={-inf}
+rank={0,1,} iter={98} input={0.00586942,} output={-inf,2.97445e-05,3.62202,} objective={-inf}
+rank={0,1,} iter={99} input={0.00231825,} output={-inf,1.54797e-05,3.25681,} objective={-inf}
+final_iter={100} inputs={0.00462904,} output={-inf,2.97445e-05,3.62202,}
+time:compress = 121304
+time:decompress = 523
+zfp:accuracy = 4.33248e-315
+size:compression ratio = 3.62202
+error_stat:max_x_sq_diff_rel = 2.97445e-05

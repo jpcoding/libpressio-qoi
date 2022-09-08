@@ -1,0 +1,9 @@
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/iterate.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/sz3_demo.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/zfp_demo.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/opt_demo.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/opt_zfp.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/opt_binary.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/fraz.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/edit_cache.dir
+/home/pjyh8/git/libpressio-qoi/build/CMakeFiles/rebuild_cache.dir

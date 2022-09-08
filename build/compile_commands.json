@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/.local/include/libpressio -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -pg -g -std=gnu++17 -o CMakeFiles/iterate.dir/iterate.cpp.o -c /home/pjyh8/git/libpressio-qoi/iterate.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/iterate.cpp"
+},
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/.local/include/libpressio -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -pg -g -std=gnu++17 -o CMakeFiles/sz3_demo.dir/sz3_demo.cpp.o -c /home/pjyh8/git/libpressio-qoi/sz3_demo.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/sz3_demo.cpp"
+},
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/.local/include/libpressio -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -pg -g -std=gnu++17 -o CMakeFiles/zfp_demo.dir/zfp_demo.cpp.o -c /home/pjyh8/git/libpressio-qoi/zfp_demo.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/zfp_demo.cpp"
+},
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/git/libpressio_opt/install/include/libpressio_opt -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libdistributed-0.4.0-llburi74rpwmf3oghwy4fjwib25r3dbg/include/libdistributed -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/openmpi-4.1.4-x7atvviwd7x3brfwoeyw7yug6necvojk/include -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -isystem /home/pjyh8/.local/include/libpressio -pg -g -pthread -std=gnu++17 -o CMakeFiles/opt_demo.dir/opt_demo.cpp.o -c /home/pjyh8/git/libpressio-qoi/opt_demo.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/opt_demo.cpp"
+},
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/git/libpressio_opt/install/include/libpressio_opt -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libdistributed-0.4.0-llburi74rpwmf3oghwy4fjwib25r3dbg/include/libdistributed -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/openmpi-4.1.4-x7atvviwd7x3brfwoeyw7yug6necvojk/include -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -isystem /home/pjyh8/.local/include/libpressio -pg -g -pthread -std=gnu++17 -o CMakeFiles/opt_zfp.dir/opt_zfp.cpp.o -c /home/pjyh8/git/libpressio-qoi/opt_zfp.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/opt_zfp.cpp"
+},
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/git/libpressio_opt/install/include/libpressio_opt -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libdistributed-0.4.0-llburi74rpwmf3oghwy4fjwib25r3dbg/include/libdistributed -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/openmpi-4.1.4-x7atvviwd7x3brfwoeyw7yug6necvojk/include -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -isystem /home/pjyh8/.local/include/libpressio -pg -g -pthread -std=gnu++17 -o CMakeFiles/opt_binary.dir/opt_binary.cpp.o -c /home/pjyh8/git/libpressio-qoi/opt_binary.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/opt_binary.cpp"
+},
+{
+  "directory": "/home/pjyh8/git/libpressio-qoi/build",
+  "command": "/share/apps/common/gcc/9.2.0/bin/g++  -I\"/home/pjyh8/git/libpressio-qoi/\\$$HOME/git/libpressio_opt/install/include\" -isystem /home/pjyh8/git/libpressio_opt/install/include/libpressio_opt -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libdistributed-0.4.0-llburi74rpwmf3oghwy4fjwib25r3dbg/include/libdistributed -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/openmpi-4.1.4-x7atvviwd7x3brfwoeyw7yug6necvojk/include -isystem /home/pjyh8/git/spack/opt/spack/linux-ubuntu18.04-zen2/gcc-9.2.0/libstdcompat-0.0.15-b6rv4jwrdiyatav567sjbr7hwwxhaexm/include -isystem /home/pjyh8/.local/include/libpressio -pg -g -pthread -std=gnu++17 -o CMakeFiles/fraz.dir/fraz.cpp.o -c /home/pjyh8/git/libpressio-qoi/fraz.cpp",
+  "file": "/home/pjyh8/git/libpressio-qoi/fraz.cpp"
+}
+]

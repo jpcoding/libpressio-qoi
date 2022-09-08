@@ -1,0 +1,125 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/share/apps/common/gcc/9.2.0/gmp/include",
+						"/share/apps/common/gcc/9.2.0/mpfr/include",
+						"/share/apps/common/gcc/9.2.0/mpc/include",
+						"/share/apps/common/gcc/9.2.0/binutils/include",
+						"/share/apps/common/gcc/9.2.0/include",
+						"/share/apps/common/gcc/9.2.0/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include",
+						"/share/apps/common/gcc/9.2.0/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/share/apps/common/gcc/9.2.0/lib/gcc/x86_64-pc-linux-gnu/9.2.0",
+						"/share/apps/common/gcc/9.2.0/lib/gcc",
+						"/share/apps/common/gcc/9.2.0/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib64",
+						"/share/apps/common/gcc/9.2.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/share/apps/common/gcc/9.2.0/bin/gcc",
+				"version" : "9.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/share/apps/common/gcc/9.2.0/gmp/include",
+						"/share/apps/common/gcc/9.2.0/mpfr/include",
+						"/share/apps/common/gcc/9.2.0/mpc/include",
+						"/share/apps/common/gcc/9.2.0/binutils/include",
+						"/share/apps/common/gcc/9.2.0/include",
+						"/share/apps/common/gcc/9.2.0/include/c++/9.2.0",
+						"/share/apps/common/gcc/9.2.0/include/c++/9.2.0/x86_64-pc-linux-gnu",
+						"/share/apps/common/gcc/9.2.0/include/c++/9.2.0/backward",
+						"/share/apps/common/gcc/9.2.0/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include",
+						"/share/apps/common/gcc/9.2.0/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/share/apps/common/gcc/9.2.0/lib/gcc/x86_64-pc-linux-gnu/9.2.0",
+						"/share/apps/common/gcc/9.2.0/lib/gcc",
+						"/share/apps/common/gcc/9.2.0/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib64",
+						"/share/apps/common/gcc/9.2.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/share/apps/common/gcc/9.2.0/bin/g++",
+				"version" : "9.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
