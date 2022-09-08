@@ -161,7 +161,7 @@ int main (int argc, char ** argv)
     size_t dims[]={500,500,100};
     struct pressio_data* description = pressio_data_new_empty( pressio_float_dtype, 3, dims);
 
-    struct pressio_data* input_data = pressio_io_data_path_read(description, "/home/pjiao/data/hurricane_100x500x100/CLOUDf48.bin.f32");
+    struct pressio_data* input_data = pressio_io_data_path_read(description, "/home/pjyh8/data/hurrican100x500x500/Uf48.bin.f3");
 
     // std::cout<< input_data << std::endl;
 
@@ -173,12 +173,16 @@ int main (int argc, char ** argv)
     struct pressio_data* decompressed_data = pressio_data_new_owning(pressio_float_dtype,3, dims);
 
 
+    // std::cout<<"construct data" << std::endl;
 
     // compress and decompress the data
         double compress_time_cxx; 
     std::clock_t start;
     start=std::clock();
+        std::cout<<"compress_" <<std::endl;
+
     int compress_ =pressio_compressor_compress(sz3, input_data, compressed_data);
+    std::cout<<"compress_" << compress_<<std::endl;
     compress_time_cxx=(std::clock()-start)/ (double) CLOCKS_PER_SEC;
 
     int decompress_ = pressio_compressor_decompress(sz3, compressed_data, decompressed_data);

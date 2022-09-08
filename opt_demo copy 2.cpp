@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
   std::string string4(argv[2]);
 
   std::string string5 = R"lua( ) then
-      objective =-cr;
+      objective = -1*(x2-0.1);
     else
       objective = cr;
     end
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
   auto options = compressor->get_options();
   options.set("composite:scripts", lua_scripts);
     auto const inputs = std::vector<std::string>{"sz3:rel_error_bound"};
-    auto const outputs = std::vector<std::string>{ "composite:objective","error_stat:max_x_sq_diff_rel","size:compression_ratio"};
+    auto const outputs = std::vector<std::string>{ "composite:objective","error_stat:max_x_sq_diff_rel","size:compression_ratio", "time:compress", "time:decompress"};
   auto const headers = [&]()
   {
     std::vector<std::string> headers;
@@ -122,8 +122,8 @@ int main(int argc, char *argv[])
     return headers;
   }();
 
-  pressio_data lower_bound{0};
-  pressio_data upper_bound{target_upper};
+  pressio_data lower_bound{target_x2_error/10};
+  pressio_data upper_bound{target_x2_error};
   pressio_data guess= pressio_data{0.5*target_x2_error}; // will need guess first
 
   // options.set("opt:search", "binary");
@@ -134,14 +134,13 @@ int main(int argc, char *argv[])
   
 
   options.set("fraz:nthreads", 1u);
-  options.set("opt:search", "fraz"); // fraz binary 
-  // options.set("dist_gridsearch:search", "fraz");
-  // options.set("dist_gridsearch:num_bins", pressio_data{(size == 1) ? 1 : (size -1)});  // not for single thread
-  // options.set("dist_gridsearch:overlap_percentage", pressio_data{0.05}); // not for single thread  
+  options.set("opt:search", "dist_gridsearch");
+  options.set("dist_gridsearch:search", "fraz");
+  options.set("dist_gridsearch:num_bins", pressio_data{(size == 1) ? 1 : (size -1)});  // not for single thread
+  options.set("dist_gridsearch:overlap_percentage", pressio_data{0.05}); // not for single thread  
   // options.set("distributed:comm", (void*)MPI_COMM_WORLD);
   options.set("opt:compressor", "sz3");
   options.set("opt:inputs", inputs);
-  
   options.set("opt:lower_bound", lower_bound);
   options.set("opt:upper_bound", upper_bound);
   options.set("opt:target", 0.1); // stop criterion 
@@ -177,8 +176,6 @@ int main(int argc, char *argv[])
   auto description = pressio_data_new_empty( pressio_float_dtype, 3, dims);
 
   auto input_data = pressio_io_data_path_read(description,argv[4]);
-
-  // auto input_data = pressio_data_new_move(pressio_float_dtype, make_data(), 3, dims, pressio_data_libc_free_fn, nullptr);
 
   // auto input_data = pressio_data_new_move(pressio_float_dtype, make_data(), 3, dims, pressio_data_libc_free_fn, nullptr);
   auto compressed = pressio_data_new_empty(pressio_byte_dtype, 0, 0);
