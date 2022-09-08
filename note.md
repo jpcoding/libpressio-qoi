@@ -29,3 +29,4 @@ cmake -DCMAKE_CXX_FLAGS=-pg -DCMAKE_EXE_LINKER_FLAGS=-pg -DCMAKE_SHARED_LINKER_F
 
 
  valgrind --tool=callgrind --dump-instr=yes --simulate-cache=yes --collect-jumps=yes mpirun -np 1 ./opt_zfp 0.1 0.1 0.01 0 1 /home/pjyh8/data/hurrican100x500x500/Pf48.bin.f32
+ 

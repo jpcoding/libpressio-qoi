@@ -127,7 +127,7 @@ int main (int argc, char ** argv)
     // configure the compressor
     struct  pressio_options* config =pressio_compressor_get_options(zfp);
     
-    pressio_options_set_double(config, "zfp:accuracy", 16);
+    pressio_options_set_double(config, "zfp:accuracy", atoi(argv[1]));
     // pressio_options_set_integer(config, "zfp:mode", 8);
 
 
@@ -150,7 +150,7 @@ int main (int argc, char ** argv)
     // prepare input data
     size_t dims[]={500,500,100};
     struct pressio_data* description = pressio_data_new_empty( pressio_float_dtype, 3, dims);
-    struct pressio_data* input_data = pressio_io_data_path_read(description, "/home/pjyh8/data/hurrican100x500x500/Pf48.bin.f32");
+    struct pressio_data* input_data = pressio_io_data_path_read(description, "/home/pjyh8/data/hurrican100x500x500/Uf48.bin.f32");
 
     // output buffers 
     struct pressio_data* compressed_data = pressio_data_new_empty(pressio_byte_dtype, 0, NULL);
@@ -161,13 +161,13 @@ int main (int argc, char ** argv)
     int decompress_ = pressio_compressor_decompress(zfp, compressed_data, decompressed_data);
 
     // write files 
-    pressio_io_data_path_write(compressed_data, "test.zfp");
-    pressio_io_data_path_write(decompressed_data, "test.zfp.out");
+    // pressio_io_data_path_write(compressed_data, "test.zfp");
+    // pressio_io_data_path_write(decompressed_data, "test.zfp.out");
 
     // 
 
 
-    std::cout<< sizeof(decompressed_data)<<std::endl;
+    // std::cout<< sizeof(decompressed_data)<<std::endl;
 
     struct pressio_options* metrics_results = pressio_compressor_get_metrics_results(zfp);
 
