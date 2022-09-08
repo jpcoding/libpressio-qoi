@@ -150,7 +150,7 @@ int main (int argc, char ** argv)
     // prepare input data
     size_t dims[]={500,500,100};
     struct pressio_data* description = pressio_data_new_empty( pressio_float_dtype, 3, dims);
-    struct pressio_data* input_data = pressio_io_data_path_read(description, "/home/pjiao/data/hurricane_100x500x100/Uf48.bin.f32");
+    struct pressio_data* input_data = pressio_io_data_path_read(description, "/home/pjyh8/data/hurrican100x500x500/Pf48.bin.f32");
 
     // output buffers 
     struct pressio_data* compressed_data = pressio_data_new_empty(pressio_byte_dtype, 0, NULL);
@@ -175,14 +175,21 @@ int main (int argc, char ** argv)
     // double compression_time=0;
     // double decompression_time=0;
     double psnr=0;
+    uint32_t dtime=0;
+    uint32_t ctime=0;
     pressio_options_get_double(metrics_results, "size:compression_ratio", &compression_ratio);
     // pressio_options_get_double(metrics_results, "time:compress", &compression_time);
     pressio_options_get_double(metrics_results, "error_stat:psnr", &psnr);
+    pressio_options_get_uinteger(metrics_results, "time:decompress", &dtime);
+    pressio_options_get_uinteger(metrics_results, "time:compress", &ctime);
 
 
-    print_all_options(metrics_results);
+
+    // print_all_options(metrics_results);
     std::cout<<"compression ratio "<<compression_ratio<<std::endl;
     std::cout<<"psnr = "<< psnr <<std::endl;
+    std::cout<<"time:decompress = "<< dtime <<std::endl;
+    std::cout<<"time:compress = "<< ctime <<std::endl;
     // std::cout<<"compression time" << compression_time <<std::endl;
     
     // std::cout<<" end the program" <<std::endl;
@@ -197,12 +204,21 @@ int main (int argc, char ** argv)
   pressio_data_free(decompressed_data);
   pressio_data_free(compressed_data);
   pressio_data_free(input_data);
+  pressio_data_free(description);
+
+
 
   // free options and the library
   pressio_options_free(config);
   pressio_options_free(metrics_results);
+    free(avail_str);
+        pressio_options_free(avail);
+
+
+
   pressio_compressor_release(zfp);
   pressio_release(library);
+ 
   return 0;
     
 }

@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories("$HOME/git/libpressio_opt/install/include")
 # include_directories("/usr/include/mpich-x86_64")
 
-find_package(LibPressio REQUIRED)
+find_package(LibPressio REQUIRED )
 find_package(LibPressioOpt REQUIRED PATHS "/home/pjyh8/git/libpressio_opt/install/lib/cmake/LibPressioOpt")
 find_package(LibDistributed REQUIRED)
 find_package(std_compat REQUIRED)

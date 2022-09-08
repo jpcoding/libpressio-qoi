@@ -1,11 +1,32 @@
 #include <iostream>
 #include <limits>
+#include<fstream>
+#include<vector> 
+#include<array>
+#include<cmath>
 #include <libpressio.h>
 #include <libpressio_ext/cpp/libpressio.h>
 #include <libpressio_ext/io/posix.h>
 #include <libpressio_opt/pressio_search_defines.h>
 #include "mpi.h"
-#include "utils/FileUtils.h"
+
+
+template<typename Type>
+Type * readfile(const char * file, size_t& num){
+        std::ifstream fin(file, std::ios::binary);
+        if(!fin){
+        std::cout << " Error, Couldn't find the file" << "\n";
+        return 0;
+    }
+    fin.seekg(0, std::ios::end);
+    const size_t num_elements = fin.tellg() / sizeof(Type);
+    fin.seekg(0, std::ios::beg);
+    Type * data = (Type *) malloc(num_elements*sizeof(Type));
+        fin.read(reinterpret_cast<char*>(&data[0]), num_elements*sizeof(Type));
+        fin.close();
+        num = num_elements;
+        return data;
+}
 
 float* make_data() {
   size_t idx = 0;
@@ -37,10 +58,10 @@ int main(int argc, char *argv[])
     MPI_Abort(MPI_COMM_WORLD, 3);
   }
 size_t num_elements=0;
- float *data=readfile<float>(argv[6], numelements);	
+ float *data=readfile<float>(argv[6], num_elements);	
  float data_max =data[0];
  float data_min=data[0];
- for (size_t i=0; i<numelements; i++)
+ for (size_t i=0; i<num_elements; i++)
  {
 	if(data[i]>data_max) data_max=data[i];
 	if (data[i]<data_min) data_min=data[i];
@@ -131,10 +152,10 @@ size_t num_elements=0;
 
 
   options.set("fraz:nthreads", 1u);
-  options.set("opt:search", "dist_gridsearch");
-  options.set("dist_gridsearch:search", "fraz");
-  options.set("dist_gridsearch:num_bins", pressio_data{1});
-  options.set("dist_gridsearch:overlap_percentage", pressio_data{0});
+  options.set("opt:search", "fraz");
+  // options.set("dist_gridsearch:search", "fraz");
+  // options.set("dist_gridsearch:num_bins", pressio_data{1});
+  // options.set("dist_gridsearch:overlap_percentage", pressio_data{0});
   // options.set("distributed:comm", (void*)MPI_COMM_WORLD);
   options.set("opt:compressor", "zfp");
   options.set("opt:inputs", inputs);
@@ -206,7 +227,7 @@ size_t num_elements=0;
     std::cout << "zfp:accuracy = "<< finaloptions.get("zfp:accuracy").get_value<double>()<< std::endl;
     std::cout << "size:compression ratio = "<< metrics_results.get("size:compression_ratio").get_value<double>()<< std::endl;
     std::cout << "error_stat:max_x_sq_diff_rel = "<< metrics_results.get("error_stat:max_x_sq_diff_rel").get_value<double>()<< std::endl;
-    std::cout<<"final config "<< finaloptions<<std::endl; 
+    // std::cout<<"final config "<< finaloptions<<std::endl; 
   }
 
 
